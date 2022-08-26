@@ -1,0 +1,139 @@
+/* RESET AND FONT */
+body{
+    font-family: "lato",sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(45deg, rgb(57, 45, 113), rgb(34, 55, 134)) */
+    background: #333;
+}
+
+h1{
+    text-transform:uppercase;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+
+}
+
+/* LAYOUT */
+h2{
+    text-align: center;
+    /* text-transform: uppercase; */
+    color: rebeccapurple;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    display: none;    
+}
+
+.container{
+    padding: 20px 0;
+}
+
+.game-container{
+    background-color: #ffff;
+    position: relative;
+    margin: 0 auto;
+    width: 90vw;
+    height: 50vh;
+    user-select: none;
+    margin-bottom: 20px;
+}
+
+.stat-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.counter{
+    overflow: hidden;
+    color: white;
+    outline: none;
+    border: none;
+    box-shadow: 5px 5px 10px #202020, -5px -5px 10px #414040;
+    text-transform: uppercase;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    height: 120px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.start-btn{
+    overflow: hidden;
+    color: white;
+    outline: none;
+    border: none;
+    box-shadow: 6px 6px 10px #202020, -6px -6px 12px #464646;
+    margin-top: 12px;
+    width: 130px;
+    height: 110px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 22px;
+    background: #3333;
+    /* background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.start-btn:active{
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+.start-btn:hover{
+    transform: scale(1.05);
+}
+
+
+/* CLASS JS FOR DOM */
+
+.valid-click{
+    background-color: #bae497;
+
+}
+
+.invalid-click {
+    background: rgb(250, 143, 143);
+}
+/* .stop-start{
+    background-color: blue;
+} */
+
+.click-ball{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-image: linear-gradient(40deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.flex-active{
+    display: flex;
+    
+}
+
+.best-score{
+    font-size: 18px;
+}
+
+/* .result-display{
+    font-size: 50px;
+} */
+
+
+
+/*=================MEDIA QUERIES===============*/
+@media (max-width: 768px) {
+    .stat-container{
+        flex-direction: column ;
+    }
+
+    
+}

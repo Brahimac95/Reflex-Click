@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reflex Ball</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Jeux de réflexe au clic de la souris">
+
+</head>
+<body>
+
+    <h1>Reflexe Game</h1>
+    <div class="container">
+        <div id="game-container" class="game-container">
+            <h2 id="game-text" class="game-text"></h2>
+        </div>
+
+        <div id="stat-container" class="stat-container">
+            <div class="counter">
+                <h3>Clic restant :</h3>
+                <p><span id="target-count" class="target-count"></span>&#128308</p>
+            </div>
+            <button type="button" class="start-btn" id="start-btn">Start</button>
+            <div class="counter-score counter">
+                <h3>Meilleur score :</h3>
+                <p><span id="best-score" class="best-score"></span>✨</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
