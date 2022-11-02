@@ -6,3 +6,5 @@
 > L'apparition de la cible qui est représentée par un petit cercle.
 
 > Il apparait de façon aléatoire et il faut donc cliquer le plus rapidement possible pour ainsi avoir ou améliorer son meilleur score.
+
+## Lien du jeu: https://brahimac95.github.io/Reflex-Click/
